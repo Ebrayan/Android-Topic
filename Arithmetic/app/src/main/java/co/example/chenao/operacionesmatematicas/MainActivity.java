@@ -44,27 +44,27 @@ public class MainActivity extends AppCompatActivity {
 
     private void sumar() {
         int suma=num1+num2;
-        etiResultado.setText("El Resultado de la suma es: "+suma);
+        etiResultado.setText("The result is: "+suma);
     }
 
     private void restar() {
         int resta=num1-num2;
-        etiResultado.setText("El Resultado de la resta es: "+resta);
+        etiResultado.setText("The result is: "+resta);
     }
 
     private void multiplicar() {
         int mult=num1*num2;
-        etiResultado.setText("El Resultado de la multiplicacion es: "+mult);
+        etiResultado.setText("The result is: "+mult);
     }
 
     private void dividir() {
 
         if(num2>0){
             int div=num1/num2;
-            etiResultado.setText("El Resultado de la division es: "+div);
+            etiResultado.setText("The result is: "+div);
         }else{
-            Toast.makeText(this,"Advertencia",Toast.LENGTH_LONG).show();
-            etiResultado.setText("El numero 2 debe mayor a 0 para la division");
+            Toast.makeText(this,"Warning",Toast.LENGTH_LONG).show();
+            etiResultado.setText("The second number has to be higher than a 0 ");
         }
 
 
